@@ -25,6 +25,9 @@ const Index = () => {
         <Button as={Link} to="/kanban" colorScheme="teal" variant="solid">
           Go to Kanban Board
         </Button>
+        <Button as={Link} to="/pride-week-graphs" colorScheme="teal" variant="solid">
+          Go to Pride Week Graphs
+        </Button>
       </VStack>
     </Container>
   );
