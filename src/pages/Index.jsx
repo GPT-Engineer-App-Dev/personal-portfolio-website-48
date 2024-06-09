@@ -1,5 +1,6 @@
 import { Container, Text, VStack, Heading, Box, Button, HStack, Image } from "@chakra-ui/react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
@@ -21,6 +22,9 @@ const Index = () => {
             Twitter
           </Button>
         </HStack>
+        <Button as={Link} to="/kanban" colorScheme="teal" variant="solid">
+          Go to Kanban Board
+        </Button>
       </VStack>
     </Container>
   );
